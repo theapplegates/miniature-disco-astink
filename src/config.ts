@@ -28,8 +28,8 @@ export const SITE = {
     name: 'Ink',
     title: 'Astro - Ink',
     description: 'Crisp, minimal, personal blog theme for Astro',
-    url: 'https://astro-ink.vercel.app',
-    githubUrl: 'https://github.com/one-aalam/astro-ink',
+    url: 'https://astro.paulapplegate.com',
+    githubUrl: 'https://github.com/theapplegates/miniature-disco-astink',
     listDrafts: true
     // description ?
 }
