@@ -6,6 +6,8 @@ image: https://images.unsplash.com/photo-1501772418-b33899635bca?ixid=MnwxMjA3fD
 author: Tom MacWright
 authorTwitter: tmcw
 category: design
+setup: |
+  import Image from "astro-imagetools"
 tags:
 - architecture
 - front-end
@@ -13,3 +15,14 @@ tags:
 description: There is a sweet spot of React - in moderately interactive interfaces..
 ---
 https://macwright.com/2020/05/10/spa-fatigue.html
+
+
+<html>
+  <body>
+	<h1>Hello World!</h1>
+	<Image
+	  src="/src/images/Gulfstream-G400.jpg"
+	  alt="A Gulfstream G400"
+	/>
+  </body>
+</html> 

@@ -1,5 +1,8 @@
 import path, { dirname } from 'path'
 import { fileURLToPath } from 'url'
+import astroImagePlugin from "astro-imagetools/plugin";
+
+
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -29,7 +32,7 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
     '@astrojs/renderer-svelte',
   ],
   vite: {
-    plugins: [],
+    plugins: [astroImagePlugin],
     resolve: {
         alias: {
           '$': path.resolve(__dirname, './src'),
