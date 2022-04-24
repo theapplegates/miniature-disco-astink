@@ -17,12 +17,4 @@ description: There is a sweet spot of React - in moderately interactive interfac
 https://macwright.com/2020/05/10/spa-fatigue.html
 
 
-<html>
-  <body>
-	<h1>Hello World!</h1>
-	<Image
-	  src="/src/images/Gulfstream-G400.jpg"
-	  alt="A Gulfstream G400"
-	/>
-  </body>
-</html> 
+![Yarn Upgrade](/src/images/Yarn-Install.jpg)
